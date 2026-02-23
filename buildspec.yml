@@ -12,6 +12,8 @@ phases:
     commands:
       - echo Building the React UI Web app...
       - NODE_OPTIONS="--openssl-legacy-provider" npm run build
+      - ls
+      - pwd
 
 artifacts:
   files:
